@@ -14,11 +14,11 @@ const Home = () => {
                 </Link>
             </li>
             <li className='hover:scale-150 transition-all active:scale-100' title='KK-Keyboard'>
-                <a to='https://kk-keyboard.netlify.app' target='_blank'>
+                <Link to='https://kk-keyboard.netlify.app' target='_blank'>
                     <div className='size-20 bg-white rounded-md p-4'>
                         <img src={KeyboardIcon} alt="Quiz icon" className='h-full' />
                     </div>
-                </a>
+                </Link>
             </li>
         </ul>
     </div>
