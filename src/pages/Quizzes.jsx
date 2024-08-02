@@ -22,6 +22,14 @@ const Quizzes = () => {
               </div>
             </li>
           </a>
+          <a href='/test-files/3-test.exe' download>
+            <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
+              <span className="text-indigo-600 text-lg font-semibold">3-test</span>
+              <div className='h-10'>
+                <img src={brainIcon} alt="Brain icon" className='h-full' />
+              </div>
+            </li>
+          </a>
         </ul>
       </div>
     </div>
