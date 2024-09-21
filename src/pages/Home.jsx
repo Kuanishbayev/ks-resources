@@ -1,5 +1,5 @@
 import QuizIcon from '../assets/img/speech-bubble.png'
-import KeyboardIcon from '../assets/img/keyboard.png'
+import KeyboardIcon from '../assets/img/kk-keyboard.png'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
                 </Link>
             </li>
             <li className='hover:scale-150 transition-all active:scale-100' title='KK-Keyboard'>
-                <Link to='https://kk-keyboard.netlify.app' target='_blank'>
+                <Link to='/kk-keyboard'>
                     <div className='size-20 bg-white rounded-md p-4'>
                         <img src={KeyboardIcon} alt="Quiz icon" className='h-full' />
                     </div>

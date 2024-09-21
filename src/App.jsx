@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
 import Quizzes from './pages/Quizzes'
+import KkKeyboard from './pages/KkKeyboard'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/quizzes' element={<Quizzes />} />
+          <Route path='/kk-keyboard' element={<KkKeyboard />} />
         </Routes>
       </BrowserRouter>
     </>
