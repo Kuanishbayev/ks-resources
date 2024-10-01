@@ -2,6 +2,7 @@ import qoshqarMuyizIcon from '../assets/img/qoshqar-muyiz-nagis-karakalpak-natio
 import shanaraqIcon from '../assets/img/shanaraq.png'
 import kkFlagIcon from '../assets/img/kk-flag.png'
 import hariplerdinJaylasqanOrni from '../assets/files/kk_klaviatura_háriplerdiń_jaylasqan_ornı.pdf'
+import KkKlaviaturaOrnatiw from '../assets/files/kk_klaviatura.pdf'
 
 const kkKeyboard = () => {
   return (
@@ -26,6 +27,14 @@ const kkKeyboard = () => {
           <a href={hariplerdinJaylasqanOrni} download>
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
               <span className="text-indigo-600 text-lg font-semibold">Háriplerdiń jaylasqan ornı</span>
+              <div className='h-10'>
+                <img src={qoshqarMuyizIcon} alt="Brain icon" className='h-full' />
+              </div>
+            </li>
+          </a>
+          <a href={KkKlaviaturaOrnatiw} download>
+            <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
+              <span className="text-indigo-600 text-lg font-semibold">Klaviaturanı kompyuterge ornatıw boyınsha qollanba</span>
               <div className='h-10'>
                 <img src={qoshqarMuyizIcon} alt="Brain icon" className='h-full' />
               </div>
