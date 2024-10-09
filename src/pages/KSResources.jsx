@@ -39,7 +39,7 @@ const KSResources = () => {
           <a href={OzBetinsheJumis} download title="Fayldı júklew">
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
               <span className="text-indigo-600 text-lg font-semibold">Sabaqtıń texnologiyalıq kartası</span>
-              <div className='w-14'>
+              <div className='min-w-10 max-w-10'>
                 <img src={PDFIcon} alt="PDF icon" />
               </div>
             </li>
