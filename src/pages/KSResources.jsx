@@ -28,7 +28,7 @@ const KSResources = () => {
               </div>
             </li>
           </a>
-          <a href={Obyektivka} download title="Fayldı júklew">
+          <a href={TestDuziw} download title="Fayldı júklew">
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
               <span className="text-indigo-600 text-lg font-semibold">Test dúziw</span>
               <div className='w-10'>
@@ -36,7 +36,7 @@ const KSResources = () => {
               </div>
             </li>
           </a>
-          <a href={OzBetinsheJumis} download title="Fayldı júklew">
+          <a href={SabaqtinTexnologiyaliqKartasi} download title="Fayldı júklew">
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
               <span className="text-indigo-600 text-lg font-semibold">Sabaqtıń texnologiyalıq kartası</span>
               <div className='min-w-10 max-w-10'>
@@ -44,7 +44,7 @@ const KSResources = () => {
               </div>
             </li>
           </a>
-          <a href={SabaqtinTexnologiyaliqKartasi} download title="Fayldı júklew">
+          <a href={OzBetinsheJumis} download title="Fayldı júklew">
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
               <span className="text-indigo-600 text-lg font-semibold">Óz-betinshe jumıs (titul)</span>
               <div className='w-10'>
@@ -52,7 +52,7 @@ const KSResources = () => {
               </div>
             </li>
           </a>
-          <a href={TestDuziw} download title="Fayldı júklew">
+          <a href={Obyektivka} download title="Fayldı júklew">
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
               <span className="text-indigo-600 text-lg font-semibold">Obyektivka</span>
               <div className='w-10'>
