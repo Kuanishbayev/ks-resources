@@ -2,6 +2,7 @@ import QuizIcon from '../assets/img/speech-bubble.png'
 import KeyboardIcon from '../assets/img/kk-keyboard.png'
 import ProgrammingIcon from '../assets/img/programing.png'
 import TelegramIcon from '../assets/img/telegram.png'
+import KSResourcesIcon from '../assets/img/resources.png'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -19,6 +20,13 @@ const Home = () => {
                 <Link to='/kk-keyboard'>
                     <div className='size-20 bg-white rounded-md p-4'>
                         <img src={KeyboardIcon} alt="Keyboard icon" className='h-full' />
+                    </div>
+                </Link>
+            </li>
+            <li className='hover:scale-150 transition-all active:scale-100' title='Kompyuter sawatxanlıǵı kursı boyınsha materiallar'>
+                <Link to='/ks-resources'>
+                    <div className='size-20 bg-white rounded-md p-4'>
+                        <img src={KSResourcesIcon} alt="Resource icon" className='h-full' />
                     </div>
                 </Link>
             </li>

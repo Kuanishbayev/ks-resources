@@ -3,6 +3,7 @@ import './App.css'
 import Home from './pages/Home'
 import Quizzes from './pages/Quizzes'
 import KkKeyboard from './pages/KkKeyboard'
+import KSResources from './pages/KSResources'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/quizzes' element={<Quizzes />} />
           <Route path='/kk-keyboard' element={<KkKeyboard />} />
+          <Route path='/ks-resources' element={<KSResources />} />
         </Routes>
       </BrowserRouter>
     </>

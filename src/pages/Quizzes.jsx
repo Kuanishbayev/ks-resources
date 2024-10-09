@@ -2,8 +2,8 @@ import brainIcon from '../assets/img/brain.png'
 
 const Quizzes = () => {
   return (
-    <div className='h-screen bg-gradient-to-r from-sky-500 to-indigo-500 flex justify-center items-center'>
-      <div className="w-1/2">
+    <div className='min-h-screen bg-gradient-to-r from-sky-500 to-indigo-500 flex justify-center items-center'>
+      <div className="w-3/4 md:w-1/2">
         <p className="text-white text-3xl text-center font-bold mb-10">Testler</p>
         <ul className='flex flex-col gap-4'>
           <a href='/test-files/1-test.exe' download>
