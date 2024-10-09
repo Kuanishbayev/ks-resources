@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <div className='h-screen bg-indigo-400 flex justify-center items-center'>
-        <ul className='flex gap-4'>
+        <ul className='flex gap-4 flex-wrap justify-center'>
             <li className='hover:scale-150 transition-all active:scale-100' title='Testler'>
                 <Link to='/quizzes'>
                     <div className='size-20 bg-white rounded-md p-4'>

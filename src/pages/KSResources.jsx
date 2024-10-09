@@ -1,5 +1,10 @@
 import PDFIcon from '../assets/img/pdf.png'
 import BirinshiAmeliyJumis from '../assets/files/ks-resources/1-ameliy-jumis.pdf'
+import Dizimler from '../assets/files/ks-resources/dizimler.pdf'
+import Obyektivka from '../assets/files/ks-resources/obyektivka.pdf'
+import OzBetinsheJumis from '../assets/files/ks-resources/oz-betinshe-jumis.pdf'
+import SabaqtinTexnologiyaliqKartasi from '../assets/files/ks-resources/sabaqtin-texnologiyaliq-kartasi.pdf'
+import TestDuziw from '../assets/files/ks-resources/test-duziw.pdf'
 
 const KSResources = () => {
   return (
@@ -15,7 +20,7 @@ const KSResources = () => {
               </div>
             </li>
           </a>
-          <a href='/test-files/5-test.exe' download title="Fayldı júklew">
+          <a href={Dizimler} download title="Fayldı júklew">
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
               <span className="text-indigo-600 text-lg font-semibold">Dizimler</span>
               <div className='w-10'>
@@ -23,7 +28,7 @@ const KSResources = () => {
               </div>
             </li>
           </a>
-          <a href='/test-files/2-test.exe' download title="Fayldı júklew">
+          <a href={Obyektivka} download title="Fayldı júklew">
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
               <span className="text-indigo-600 text-lg font-semibold">Test dúziw</span>
               <div className='w-10'>
@@ -31,7 +36,7 @@ const KSResources = () => {
               </div>
             </li>
           </a>
-          <a href='/test-files/4-test.exe' download title="Fayldı júklew">
+          <a href={OzBetinsheJumis} download title="Fayldı júklew">
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
               <span className="text-indigo-600 text-lg font-semibold">Sabaqtıń texnologiyalıq kartası</span>
               <div className='w-14'>
@@ -39,7 +44,7 @@ const KSResources = () => {
               </div>
             </li>
           </a>
-          <a href='/test-files/3-test.exe' download title="Fayldı júklew">
+          <a href={SabaqtinTexnologiyaliqKartasi} download title="Fayldı júklew">
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
               <span className="text-indigo-600 text-lg font-semibold">Óz-betinshe jumıs (titul)</span>
               <div className='w-10'>
@@ -47,7 +52,7 @@ const KSResources = () => {
               </div>
             </li>
           </a>
-          <a href='/test-files/1-test.exe' download title="Fayldı júklew">
+          <a href={TestDuziw} download title="Fayldı júklew">
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
               <span className="text-indigo-600 text-lg font-semibold">Obyektivka</span>
               <div className='w-10'>
