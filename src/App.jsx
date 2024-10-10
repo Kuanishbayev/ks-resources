@@ -6,6 +6,7 @@ import KkKeyboard from './pages/KkKeyboard'
 import KSResources from './pages/KSResources'
 import QuizzesPack1 from './pages/QuizzesPack1'
 import QuizzesPack2 from './pages/QuizzesPack2'
+import QuizzesPack3 from './pages/QuizzesPack3'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
           <Route path='/quizzes' element={<Quizzes />} />
           <Route path='/quizzes-pack-1' element={<QuizzesPack1 />} />
           <Route path='/quizzes-pack-2' element={<QuizzesPack2 />} />
+          <Route path='/quizzes-pack-3' element={<QuizzesPack3 />} />
           <Route path='/kk-keyboard' element={<KkKeyboard />} />
           <Route path='/ks-resources' element={<KSResources />} />
         </Routes>
