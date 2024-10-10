@@ -1,4 +1,6 @@
-import brainIcon from '../assets/img/brain.png'
+import { Link } from 'react-router-dom'
+import quizIcon from '../assets/img/cross.png'
+import examIcon from '../assets/img/exam.png'
 
 const Quizzes = () => {
   return (
@@ -6,51 +8,27 @@ const Quizzes = () => {
       <div className="w-3/4 md:w-1/2">
         <p className="text-white text-3xl text-center font-bold mb-10">Testler</p>
         <ul className='flex flex-col gap-4'>
-          <a href='/test-files/1-test.exe' download>
+          <Link to='/quizzes-pack-1'>
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
-              <span className="text-indigo-600 text-lg font-semibold">1-test</span>
+              <span className="text-indigo-600 text-lg font-semibold">Testler toplamı 1</span>
               <div className='h-10'>
-                <img src={brainIcon} alt="Brain icon" className='h-full' />
+                <img src={quizIcon} alt="Quiz icon" className='h-full' />
               </div>
             </li>
-          </a>
-          <a href='/test-files/2-test.exe' download>
+          </Link>
+          <Link to='/quizzes-pack-2'>
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
-              <span className="text-indigo-600 text-lg font-semibold">2-test</span>
+              <span className="text-indigo-600 text-lg font-semibold">Testler toplamı 2</span>
               <div className='h-10'>
-                <img src={brainIcon} alt="Brain icon" className='h-full' />
+                <img src={quizIcon} alt="Quiz icon" className='h-full' />
               </div>
             </li>
-          </a>
-          <a href='/test-files/3-test.exe' download>
+          </Link>
+          <a href='/test-files/imtixan.exe' download>
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
-              <span className="text-indigo-600 text-lg font-semibold">3-test</span>
+              <span className="text-indigo-600 text-lg font-semibold">Juwmaqlawshı test</span>
               <div className='h-10'>
-                <img src={brainIcon} alt="Brain icon" className='h-full' />
-              </div>
-            </li>
-          </a>
-          <a href='/test-files/4-test.exe' download>
-            <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
-              <span className="text-indigo-600 text-lg font-semibold">4-test</span>
-              <div className='h-10'>
-                <img src={brainIcon} alt="Brain icon" className='h-full' />
-              </div>
-            </li>
-          </a>
-          <a href='/test-files/5-test.exe' download>
-            <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
-              <span className="text-indigo-600 text-lg font-semibold">5-test</span>
-              <div className='h-10'>
-                <img src={brainIcon} alt="Brain icon" className='h-full' />
-              </div>
-            </li>
-          </a>
-          <a href='/test-files/6-test.exe' download>
-            <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
-              <span className="text-indigo-600 text-lg font-semibold">6-test</span>
-              <div className='h-10'>
-                <img src={brainIcon} alt="Brain icon" className='h-full' />
+                <img src={examIcon} alt="Exam icon" className='h-full' />
               </div>
             </li>
           </a>
