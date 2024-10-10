@@ -24,6 +24,14 @@ const Quizzes = () => {
               </div>
             </li>
           </Link>
+          <Link to='/quizzes-pack-3'>
+            <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
+              <span className="text-indigo-600 text-lg font-semibold">Testler toplamı 3</span>
+              <div className='h-10'>
+                <img src={quizIcon} alt="Quiz icon" className='h-full' />
+              </div>
+            </li>
+          </Link>
           <a href='/test-files/imtixan.exe' download>
             <li className="bg-white p-4 rounded-md cursor-pointer hover:bg-orange-200 shadow active:scale-95 transition-all active:bg-white flex justify-between items-center gap-4">
               <span className="text-indigo-600 text-lg font-semibold">Juwmaqlawshı test</span>
