@@ -7,6 +7,7 @@ import KSResources from './pages/KSResources'
 import QuizzesPack1 from './pages/QuizzesPack1'
 import QuizzesPack2 from './pages/QuizzesPack2'
 import QuizzesPack3 from './pages/QuizzesPack3'
+import Other from './pages/Other'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/quizzes-pack-3' element={<QuizzesPack3 />} />
           <Route path='/kk-keyboard' element={<KkKeyboard />} />
           <Route path='/ks-resources' element={<KSResources />} />
+          <Route path='/other' element={<Other />} />
         </Routes>
       </BrowserRouter>
     </>

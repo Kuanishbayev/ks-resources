@@ -3,6 +3,7 @@ import KeyboardIcon from '../assets/img/kk-keyboard.png'
 import ProgrammingIcon from '../assets/img/programing.png'
 import TelegramIcon from '../assets/img/telegram.png'
 import KSResourcesIcon from '../assets/img/resources.png'
+import ApplicationIcon from '../assets/img/application.png'
 import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -36,6 +37,13 @@ const Home = () => {
                         <img src={ProgrammingIcon} alt="Programming icon" className='h-full' />
                     </div>
                 </a>
+            </li>
+            <li className='hover:scale-150 transition-all active:scale-100' title='Basqa'>
+                <Link to='/other'>
+                    <div className='size-20 bg-white rounded-md p-4'>
+                        <img src={ApplicationIcon} alt="Application icon" className='h-full' />
+                    </div>
+                </Link>
             </li>
         </ul>
         <a href="https://t.me/Ernazar_Kuanishbaev">
